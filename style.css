@@ -1,4 +1,25 @@
-header{
-    background-color: rgb(64, 64, 197);
+.cabeçalho{
+    background-color: rgb(62, 120, 185);
+    color: black;
+    display: flex;
+    padding: 10px;
+    justify-content:left;
+
+}
+.cabeçalho-imagem{
+    width: 15%;
+    height: 15%;
+    
+}
+*{
+
+    margin: 05px;;
+    padding: 05px;
+}
+.cabeçalho-item{
+
+    display: inline-block;
+    font-size: 30px;
+
 
 }
