@@ -7,19 +7,43 @@
 
 }
 .cabeçalho-imagem{
-    width: 15%;
-    height: 15%;
+    width: 10%;
+    height: 10%;
     
 }
 *{
-
+    background-image: url();
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 05px;;
     padding: 05px;
+  
 }
 .cabeçalho-item{
-
     display: inline-block;
-    font-size: 30px;
+    font-size: 40px;
+    padding: 0 0 0 30px;
+}
+.corpo{
+    background-color: rgb(64, 99, 100);
+   
+}
+.rodape{
+    text-align: center;
+    position: 100%;
+    font-size: 20px;
+    background-color: black;
+    color: #ffffff;
+    align-self: last baseline;
+}
+.escola{
+    background-color: aquamarine;
+    color:black;
+    font-size: 30Px;
+    padding: 25px 250px;
 
+}
+.escola-titulo{
+padding: 24px 0;
 
 }
