@@ -1,49 +1,193 @@
+/* formata oespaço cabeçalho*/
 .cabeçalho{
-    background-color: rgb(62, 120, 185);
-    color: black;
+    background-color:  rgba(9, 65, 102, 0.849);
+    color: rgba(250, 244, 244);
     display: flex;
     padding: 10px;
-    justify-content:left;
-
+    text-align: center;
+   
 }
-.cabeçalho-imagem{
-    width: 10%;
-    height: 10%;
+
+/* formata espaço em vola do título */
+.escola-titulo{
+    padding: 5px 0;
     
 }
+
+/* formata o H1 do cabeçalho */
+header > h1{
+    margin:auto
+    
+}
+/* formata formata p espaço em vlta do título da página */
+.escola-titulo{
+    padding: 5px 0;
+    
+}
+
+.cabeçalho-imagem{
+    width: 15%;
+    height: 15%;
+    padding: 10px 10px;
+    text-align: center;
+}
+
 *{
     background-image: url();
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin: 05px;;
-    padding: 05px;
-  
+    background-attachment:scroll    
 }
-.cabeçalho-item{
-    display: inline-block;
-    font-size: 40px;
-    padding: 0 0 0 30px;
-}
+
 .corpo{
-    background-color: rgb(64, 99, 100);
-   
+    background-color: rgb(211, 217, 236);
+     position: 100%;
+     padding: 10px 30px;
+     font-size: 25Px;
+     color:black;
+     text-align: justify;
+     
+}
+.estudante-div{
+    background-color: rgb(28, 70, 44);
+     position: 100%;
+     padding: 10px 30px;
+     font-size: 25Px;
+     color:rgb(243, 237, 237);
+     text-align: justify;
+     
+}
+.corpo-imagem{
+    float: left;
+    margin-right: 30px;
+    width: 50%;
+    height: 80%;
+    padding: 10px 20px;
+}
+.alunos-imagem{
+    
+    margin-right: 30px;
+    width: 400px;
+    height: 200px;
+    padding: 10px 20px;
 }
 .rodape{
-    text-align: center;
-    position: 100%;
+    /*position: 100%;*/
     font-size: 20px;
-    background-color: black;
+    text-align: center;
+    background-color: rgba(16, 45, 65, 0.61);
     color: #ffffff;
-    align-self: last baseline;
+    /*align-self: last baseline;*/
+    padding: 05px 05px;
 }
-.escola{
-    background-color: aquamarine;
-    color:black;
-    font-size: 30Px;
-    padding: 25px 250px;
 
+/* formata o texto abaixo do texto principal */
+.escola-texto{
+    padding: 2px 0;
+    text-align: center;
+    color:crimson
 }
-.escola-titulo{
-padding: 24px 0;
+ /*formata a imagem do botão do face pode ser para todos os botões de redes sociais */
+.iredes-img {
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+    max-width: 32px;
+    max-height:32px
+    
+}
 
+/* formata 0 botão icone do face*/
+.botao-face {
+    all: unset;
+    cursor: pointer;
+    outline: revert;
+    padding: 15px 32px;
+    
+}
+/* formata botão verde */
+.botao-novo {
+    background-color: #4CAF50;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #4CAF50, #3E8E41);
+    
+}
+/* formata o botão verde para mudar a cor do texoo e colocarr sombra quando o mouse passar encima*/
+.botao-novo:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* formata botão verde */
+.botao-login {
+    background-color: #effcf1;
+    border-radius: 20px;
+    border: none;
+    color: rgb(184, 92, 92);
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #5aa15e, #adca5d);
+    
+}
+
+/* formata o botão verde para mudar a cor do texoo e colocarr sombra quando o mouse passar encima*/
+.botao-login:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 8px 16px 0px rgba(209, 192, 192, 0.2);
+}
+
+/* formata a div do cabeçalho pra ocupar a espaço todo */
+/* pode ser uado para formatar outras divs fora do padrão */
+.minha-div{
+    height: 10%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;    
+}
+
+/*formata a div do botão do login*/
+.login-div{
+    height: 10%;
+    margin: 10;
+    padding: 30px;
+    position:absolute;
+    top: 10px;
+    bottom: 20;
+    left: 0;
+    right: 0;  
+    text-align: right;  
+}
+
+/* formata a div do botão verde para ajustar ao centro d a página */
+.botaoverde-div{
+    height: 10%;
+    margin: 0;
+    padding: 0;
+    position:relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;  
+    text-align: center;  
 }
